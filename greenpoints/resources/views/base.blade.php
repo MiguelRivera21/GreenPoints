@@ -4,7 +4,7 @@
     <div class="relative container mx-auto flex flex-col items-center justify-center h-full text-center text-white">
         <h1 class="text-4xl sm:text-6xl font-bold">¡Con Green Points todos ganamos!</h1>
         <p class="mt-4 text-lg sm:text-2xl">Entre más greenpoints tengas lo podrás cambiar por recompensas asombrosas.</p>
-        <a href="#" class="mt-8 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-bold rounded-full">Quiero unirme</a>
+        <a href="#" class="mt-8 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-bold rounded-full">Quiero unirme!!</a>
     </div>
 </section>
 <section class=" bg-white">
