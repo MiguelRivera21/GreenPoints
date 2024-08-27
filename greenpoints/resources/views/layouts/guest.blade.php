@@ -15,12 +15,78 @@
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <!-- aqui cano lo de style -->
+    <style>
+        body {
+          margin: 0;
+          background-color: #14532d;
+          color: #fff;
+        }
+        header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 1rem;
+          background-color: #14532d;
+        }
+        .logo {
+          font-size: 2rem;
+          font-weight: bold;
+        }
+        nav ul {
+          display: flex;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+        nav li {
+          margin-right: 2rem;
+        }
+        nav a {
+          text-decoration: none;
+          color: #fff;
+        }
+        .cta {
+          display: flex;
+        }
+        .cta button {
+          background-color: #fff;
+          color: #14532d;
+          border: none;
+          padding: 0.5rem 1rem;
+          border-radius: 5px;
+          cursor: pointer;
+          margin-left: 1rem;
+        }
+      </style>
+    
 
 </head>
 
 <body class="font-sans text-gray-900 antialiased">
 
     <!-- aqui cano lo de header -->
+    <header>
+        <div class="logo">
+          <svg width="30" height="30" viewBox="0 0 30 30">
+            <path d="M10,5 L10,15 L20,15 L20,5 L10,5 Z" stroke="black" fill="transparent" stroke-width="2"/>
+            <path d="M15,15 L15,25" stroke="black" fill="transparent" stroke-width="2"/>
+          </svg>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Solutions</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="cta">
+          <button>Sign in</button>
+          <button>Register</button>
+        </div>
+      </header>
 
     <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
 
