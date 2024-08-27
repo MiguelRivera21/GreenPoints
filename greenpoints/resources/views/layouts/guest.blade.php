@@ -72,7 +72,7 @@
             <path d="M15,15 L15,25" stroke="black" fill="transparent" stroke-width="2"/>
           </svg>
         </div>
-        <nav>
+        <nav> 
           <ul>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Solutions</a></li>
