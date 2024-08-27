@@ -80,7 +80,7 @@
             <li><a href="#">Resources</a></li>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Contact</a></li>
-          </ul>
+          </ul> 
         </nav>
         <div class="cta">
           <a href="{{ route('login') }}" class="bg-white text-green font-bold py-2 px-4 border border-black rounded-md hover:bg-black hover:text-white">
