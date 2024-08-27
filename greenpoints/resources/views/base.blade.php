@@ -1,5 +1,5 @@
 <x-guest-layout>
-<section class="relative bg-cover bg-center h-screen" style="background-image: url('path_to_your_image.jpg');">
+<section class="relative bg-cover h-screen" style="background-image: url('path_to_your_image.jpg');">
     <div class="absolute inset-0 bg-black opacity-50"></div>
     <div class="relative container mx-auto flex flex-col items-center justify-center h-full text-center text-white">
         <h1 class="text-4xl sm:text-6xl font-bold">¡Con Green Points todos ganamos!</h1>
@@ -7,7 +7,7 @@
         <a href="#" class="mt-8 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-bold rounded-full">Quiero unirme</a>
     </div>
 </section>
-<section class="py-16 bg-white">
+<section class=" bg-white">
     <div class="container mx-auto text-center">
         <h2 class="text-3xl font-bold">Tareas</h2>
         <p class="mt-4 text-gray-600">Entre más tareas completes recibirás más greenpoints</p>
