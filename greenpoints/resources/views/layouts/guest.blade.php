@@ -83,8 +83,13 @@
           </ul>
         </nav>
         <div class="cta">
-          <button>Sign in</button>
-          <button>Register</button>
+            <a href="{{ route('login') }}" class="bg-white text-green font-bold py-2 px-4 border border-black rounded-md hover:bg-black hover:text-white">
+                {{ __('login') }}
+            </a>
+
+            <a href="{{ route('register') }}" class="bg-white text-green font-bold py-2 px-4 border border-black rounded-md hover:bg-black hover:text-white">
+                {{ __('register') }}
+            </a>
         </div>
       </header>
 
