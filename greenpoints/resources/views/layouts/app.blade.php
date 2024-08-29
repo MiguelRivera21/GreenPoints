@@ -25,7 +25,7 @@
                         {{ $header }}
                     </div>
                 </header>
-            @endisset
+            @endisset 
 
             <!-- Page Content -->
             <main>
